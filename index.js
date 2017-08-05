@@ -1,5 +1,5 @@
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var ioncore = require('ioncore-lib');
 
-module.exports = bitcore;
+module.exports = ioncore;

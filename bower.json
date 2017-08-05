@@ -1,20 +1,22 @@
 {
-  "name": "bitcore",
-  "main": "./bitcore.min.js",
+  "name": "ioncore",
+  "main": "./ioncore.min.js",
   "version": "0.13.5",
-  "homepage": "http://bitcore.io",
+  "homepage": "http://ionomy.com",
   "authors": [
-    "BitPay, Inc."
+    "BitPay, Inc.",
+    "R. de Wilde"
   ],
-  "description": "A pure, powerful core for your bitcoin project.",
+  "description": "A pure, powerful core for your ION project.",
   "moduleType": [
     "globals"
   ],
   "keywords": [
     "bitcoin",
-    "bitcore",
+    "ioncore",
     "btc",
-    "satoshi"
+    "satoshi",
+    "ion"
   ],
   "license": "MIT",
   "ignore": [

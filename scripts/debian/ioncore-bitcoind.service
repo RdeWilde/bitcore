@@ -1,0 +1,20 @@
+[Unit]
+Description=Bitcoin Core for ioncore
+Requires=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/usr/opt/ioncore
+ExecStart=/usr/bin/ioncore-bitcoind -datadir=/home/ioncore/.ioncore/data/
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=on-failure
+RestartSec=15
+User=ioncore
+ExecStartPre=/bin/mkdir -p /run/ioncore
+ExecStartPre=/bin/chown ioncore:ioncore /run/ioncore
+ExecStartPre=/bin/chmod 755 /run/ioncore
+PermissionsStartOnly=true
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-var bitcore = require('bitcore-node/lib/cli/bitcore');
+var ioncore = require('ioncore-node/lib/cli/ioncore');
 var path = require('path');
 var servicesPath = path.resolve(__dirname, '../');
 var additionalServices = ['insight-api', 'insight-ui'];
-bitcore(servicesPath, additionalServices);
+ioncore(servicesPath, additionalServices);

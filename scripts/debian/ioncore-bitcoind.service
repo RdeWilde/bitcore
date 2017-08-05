@@ -1,5 +1,5 @@
 [Unit]
-Description=Bitcoin Core for ioncore
+Description=ION Core for ioncore
 Requires=network.target
 
 [Service]

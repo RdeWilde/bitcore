@@ -87,8 +87,8 @@
     "request": "browser-request"
   },
   "dependencies": {
-    "ioncore-lib": "^0.14",
-    "ioncore-node": "~3.1.0",
+    "ioncore-lib": "^0.14.1",
+    "ioncore-node": "~4.0.0",
     "insight-api": "^0.4.0",
     "insight-ui": "^0.4.0"
   },
